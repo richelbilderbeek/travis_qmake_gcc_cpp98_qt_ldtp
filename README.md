@@ -6,6 +6,8 @@
 
 This GitHub is part of [the Travis C++ Tutorial](https://github.com/richelbilderbeek/travis_cpp_tutorial).
 
+I could not get this to work. A working approach for testing Qt GUI classes is using QTest: [travis_qmake_gcc_cpp98_qt_qtest](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp98_qt_qtest).
+
 The goal of this project is to have a clean Travis CI build, with specs:
  * Build system: `qmake`
  * C++ compiler: `gcc`
